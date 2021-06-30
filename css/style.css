@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bold_para{
+    font-weight: bold;
+    color: #FFF;
+}
+/* Menu bar near Logo Opened */
+.menu_listing{
+    list-style: none;
+    background: #FFF;
+}
+.dropdown-menu{
+    width:300px;
+}
+/* menu bar near Logo Closed */
