@@ -39,6 +39,7 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <!-- Header Part Opened -->
     <header>
         <!-- Top Link Important Dates Opened -->
@@ -275,27 +276,98 @@
                 <div class="col-3 pb-2">
                     <img src="img/kid_in_bg.jpg" class="img-fluid" alt="Kid Studying">
                 </div>
-                <div class="col-3 pt-5">
-                    <span class="para">Terminal Examination comming soon</span>
+                <div class="col-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                              <img src="img/rectangle_box.png" class="img-fluid float-left" alt="Avatar">                              
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>News and Events</h1> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-3 pb-2">
                     <img src="img/kid_in_bg.jpg" class="img-fluid" alt="Kid Studying">
                 </div>
-                <div class="col-3 pt-5">
-                    <span class="para">Terminal Examination comming soon</span>
-                </div>
-                
-                <div class="col-3 pt-5">
-                    <span class="para">Terminal Examination comming soon</span>
+                <div class="col-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                              <img src="img/rectangle_box.png" class="img-fluid float-left" alt="Avatar">                              
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>News and Events</h1> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                              <img src="img/rectangle_box.png" class="img-fluid float-left" alt="Avatar">                              
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>News and Events</h1> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-3 pb-2">
                     <img src="img/kid_in_bg.jpg" class="img-fluid" alt="Kid Studying">
                 </div>
-                <div class="col-3 pt-5">
-                    <span class="para">Terminal Examination comming soon</span>
+                <div class="col-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                              <img src="img/rectangle_box.png" class="img-fluid float-left" alt="Avatar">                              
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>News and Events</h1> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
                 </div>
-                  <div class="col-3 pb-2 ">
+                <div class="col-3 pb-2 ">
                     <img src="img/kid_in_bg.jpg" class="img-fluid" alt="Kid Studying">                       
+                </div>
+                <div class="col-3 pb-2">
+                    <img src="img/kid_in_bg.jpg" class="img-fluid" alt="Kid Studying">
+                </div>
+                <div class="col-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                              <img src="img/rectangle_box.png" class="img-fluid float-left" alt="Avatar">                              
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>News and Events</h1> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 pb-2">
+                    <img src="img/kid_in_bg.jpg" class="img-fluid" alt="Kid Studying">
+                </div>
+                <div class="col-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                              <img src="img/rectangle_box.png" class="img-fluid float-left" alt="Avatar">                              
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>News and Events</h1> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -386,8 +458,29 @@
         var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         var scrolled = (winScroll / height) * 100;
         document.getElementById("myBar").style.width = scrolled + "%";
-        }
+        }        
     </script>
+    <!-- <script>
+                //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+
+    </script> -->
 
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
