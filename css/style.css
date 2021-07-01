@@ -48,3 +48,9 @@ ul.breadcrumb {
     text-decoration: underline;
   }
 /* Breadcrumb Pagination Closed */
+/* Footer Opened */
+ul li {
+  list-style: none;
+  float: left;
+}
+/* Footer Closed */
