@@ -42,14 +42,20 @@
     <!-- Header Part Opened -->
     <header>
         <!-- Top Link Important Dates Opened -->
-        <div class="d-flex justify-content-center m-0 p-0">
-            <button type="button" class="btn btn-block bg-dark bold_para"> Important Dates At A Glance - Autumn Term
-                2021</button>
+        <div class="m-0">  
+            <div class="header bg-secondary">      
+                <!-- <button type="button" class="btn btn-block bg-dark bold_para"> Important Dates At A Glance - Autumn Term
+                2021</button> -->
+                <h4 class="pt-1">Important Dates At A Glance - Autumn Term 2021</h4>
+                <div class="progress-container">
+                  <div class="progress-bar" id="myBar"></div>
+                </div>   
+            </div>                
         </div>
         <!-- Top Link Important Dates Closed -->
 
         <!-- Logo and Short Menu Opened -->
-        <div class="row navigation_bar d-flex mr-0">
+        <div class="row navigation_bar d-flex mt-5">
             <div class="col-sm-12 col-md-12 col-lg-3 col-xl-4 d-flex justify-content-start bg-info">
                 <img class="img-fluid p-2" src="img/Logo.png" alt="Shine Sewa English Medium School">
                 <span class="bold_para align-self-center">Shine Sewa English Medium School</span>
@@ -205,7 +211,7 @@
                         iaculis gravida eu eget mauris. Aenean faucibus magna et elit porta, eu aliquet tellus gravida.
                         Duis vel magna et nisi eleifend pellentesque.
                     </p>
-                    <button class="btn btn-sm float-right">Learn More>>></button>
+                    <button class="btn btn-sm float-right m-1">Learn More>>></button>
                 </div>
                 <div class="col-3 ">
                     <img src="img/kid_in_bg.jpg" class="img-fluid float-right" alt="Kid in Backgroud">
@@ -340,35 +346,48 @@
                     <span>Shine Sewa English Medium School</span><br>
                     <span>Direct Number: +977 980-000-0000</span><br>
                     <span>Email: education.info@gmail.com</span><br>
-                    <h4>For Admission Enquiries:</h4>
-                    <span>Please Contact: education.info@gmail.com</span><br>
-                    <span>Telephone: 01-4370000</span><br>
+                    
                 </div>
                 <div class="col-6">
                     <div class="row">
                         <h4 class="">Useful Links</h4>
-                        <ul class="footer_links px-0 py-5">
-                            <li>About Us</li>
-                            <li>News</li>
-                            <li>Fee Payment</li>
-                            <li>Admissions</li>
-                            <li>Alumni</li>
-                            <li>Donor Payments</li>
-                            <li>Events</li>
-                            <li>Contact Us</li>
+                        <ul class="footer_links">
+                            <li>About Us | &nbsp;</li>
+                            <li>News | &nbsp;</li>
+                            <li>Fee Payment | &nbsp;</li>
+                            <li>Admissions | &nbsp;</li>
+                            <li>Alumni | &nbsp;</li>
+                            <li>Donor Payments | &nbsp;</li>
+                            <li>Events | &nbsp;</li>
+                            <li>Contact Us &nbsp;</li>
                         </ul>
                     </div>
                     <div class="row">
                         <button class="btn btn-search"> Search </button>
-                        <a href="www.facebook.com"><img src="img/Facebook_logo.png" alt="Facebook"></a>
-                        <a href="www.instagram.com"><img src="img/Instagram_logo.png" alt="Instagram"></a>
-                        <a href="www.twitter.com"><img src="img/Twitter_logo.png" alt="Twitter"></a>
+                        <a href="www.facebook.com"><img src="img/Facebook_logo.png" class="img-fluid " alt="Facebook"></a>
+                        <a href="www.instagram.com"><img src="img/Instagram_logo.png" class="img-fluid " alt="Instagram"></a>
+                        <a href="www.twitter.com"><img src="img/Twitter_logo.png" class="img-fluid" alt="Twitter"></a> 
+                        <h4>For Admission Enquiries:</h4>
+                        <span>Please Contact: education.info@gmail.com</span><br>
+                        <span>Telephone: 01-4370000</span><br>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- Footer Part Closed -->
+    
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
 
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
