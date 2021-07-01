@@ -13,10 +13,35 @@ body{
 .para{
 text-align: justify;
 }
+/* Top Link Opened */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.header h4 {
+  text-align: center;
+  color: #FFF;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #35737c;
+  width: 0%;
+}
+
+/* Top Link Closed */
+
 /* Menu bar near Logo Opened */
 .menu_listing{
     list-style: none;
-    
     background: #FFF;
 }
 .dropdown-menu{
